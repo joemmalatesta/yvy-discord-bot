@@ -1,0 +1,52 @@
+The Idea of this bot started on 4/5/22 is for me to learn about some stuff and make a cool bot
+
+SO basically the Idea of this is to take information from a players osu! account and make a pokemon card out of it...
+easier said than done.
+I will pull information from a players plays or user json provided using osu! API
+my current idea for creating the card is to Edit a JSON given by the TCG API and it will be able to print a card from there
+Alternatively I don't really have Ideas but maybe make a preset that will fill in the information that I pull
+Users will enter their user ID (hopefully will be able to enter name once I figure that out) Into discord using yvy or whatever if I make a new bot
+and the bot will print out either a link to their card or hopefully just their card appear in the channel IDK what I want yet
+
+
+4/10/22
+I have written the code for pulling data from the osu api and storing it in variables. I at first did this horribly so with some help I refactored this into a
+OOP style thing and it works much better, albeit fractionally slower.
+
+Update 4/17/22
+    So the pokemon TCG thing doesn't allow you to make images based on information provided so I'll take a weekend after school is out and learn how to use Flask
+    I'll make the card with CSS and HTML beforehand so I can just do it in parts
+
+    What I'm working on currently though is using the discord bot to store discord users information alongside their osu account so commands are not repetitive. 
+        -I need to write to a json and read from it
+        -I need to handle if a user changes their name or numbers. 
+        -I need for it to save when I end my session. 
+
+
+4/20/22
+    I decided against using Json as it's not super scalable but instead using mongoDB and learning how to use that stuff for this project. 
+    Maybe not needed for how little likely users im going to have, but I will implement this into its own class and have the discord bot call it. 
+
+
+4/28/22
+    Adding more info on plays and creating a recent play fucntion in Discord bot. Next plan of action is correctly implement mongoDB and then 
+    refactor the Discord bot code
+
+5/8/22
+    Finished for now. I'm gunna learn how to put it on github now because VSCode comit is confusing to me... 
+    There are still some features I would like to add right now but I need to move on to different projects. This is more of a learning experience than it is
+    creating a bot people will use. There are already bots that do this much better than mine. 
+
+
+I think for my next project I want to make a nice GUI for something with TKInter, or maybe a keylogger using python. 
+I need to focus on work right now though and make this HTML module. 
+
+First ever full project completed... This begins my journey. If I ever become a great programmer remember that It took me almost a year to even start 
+my first project because I didn't think I knew enough. Jumping right into it though and having others to help me through the process is where I have learned 
+more than on any tutorial I could find. 
+
+All the best is to come so long as I keep enjoying this stuff. 
+
+:)
+
+Oh... I have to figure out how to keep this online. my own server or repl.it?
