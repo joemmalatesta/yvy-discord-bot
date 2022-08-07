@@ -119,7 +119,7 @@ async def user(ctx, member : discord.Member):
 #wordcount command returns wordcount not inluding context.
 # * param takes in all in between text. It is like *args
 @client.command(aliases=["wc"])
-async def wordcount(ctx, *, text):
+async def wordCount(ctx, *, text):
     mongoDB.incrementUse(ctx.author.id)
     await ctx.message.delete()
     await ctx.send(f"{len(text.split())} Words")
@@ -160,7 +160,7 @@ async def ping(ctx):
 #Set/Update osu! profile associated with discord account. 
 #take params and add or update an account in MongoDB
 @client.command(aliases=["setprofile", "osusetprofile", 'osuset', "setosu"])
-async def osu_account_setup(ctx, osuname):
+async def osuAccountSetup(ctx, osuname):
     mongoDB.incrementUse(ctx.author.id)
     start = time.time()
     profile = osuname
@@ -177,7 +177,7 @@ async def osu_account_setup(ctx, osuname):
 
 @client.command(aliases=["osu", "osuprofile", "osu!", "whoisosu"])
 #MAKE THE SECOND ARGUMENT OPTIONAL LOOK INTO USING ARGS
-async def osu_profile(ctx, osuname=None):
+async def profileOverview(ctx, osuname=None):
     start = time.time()
     mongoDB.incrementUse(ctx.author.id)
     #Check first if there was an argument given, if not check if there is a profile associated. If not return error message.
@@ -225,7 +225,7 @@ async def osu_profile(ctx, osuname=None):
 
 #TODO make this more appealing to the eyes.
 @client.command(aliases=['r', 'recent', 'rs', 'recentscore'])
-async def recentplay(ctx, osuname=None):
+async def recentPlay(ctx, osuname=None):
     start = time.time()
     mongoDB.incrementUse(ctx.author.id)
     #if osuname argument blank, find profile in database, if still blank throw an error and direct to help
