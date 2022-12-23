@@ -2,7 +2,7 @@
 discord bot for pulling recent plays from osu!
 
 I just made a new github because my last one was all over the place with unfinished projects. I had a few prior commits that better
-showed what was happening as time progressed but I have a written timeline of my thoghts in the working code files. 
+showed what was happening as time progressed but I have a written timeline of my thoughts in the working code files. 
 
 The unfinished, poorly written code that is not in use and has been refactored is in the dead code section of the files. 
 
