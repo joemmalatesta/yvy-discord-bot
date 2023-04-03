@@ -1,5 +1,5 @@
 # yvy-discord-bot
-![Preview](../Project Files/yvy-bot.jpg)
+![Preview](/yvy-bot.jpg)
 
 discord bot for pulling recent plays from osu!
 
