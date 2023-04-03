@@ -1,5 +1,6 @@
 # yvy-discord-bot
-![Preview](Project Files/yvy-bot.jpg)
+![Preview](../Project Files/yvy-bot.jpg)
+
 discord bot for pulling recent plays from osu!
 
 I just made a new github because my last one was all over the place with unfinished projects. I had a few prior commits that better
