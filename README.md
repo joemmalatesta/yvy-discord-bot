@@ -17,7 +17,7 @@ Aside from a few general commands, each osu! command requires a second argument 
 If an osu! account is already connected to a discord user, then the osu! account will automatically be used as the profile for each command. However, it can still be overwritten if the user enters a separate osu! profile name. 
 If no account is pre specified, then an error will be thrown if the commands are being used without specifying the profile. When this happens, the user is prompted to use the *setprofile command to link their discord account with their osu! profile
 
-## osu! commands are as follows
+## Discord Commands
 - *setprofile
   This simply links the discord user to their osu! profile. There is no authorization and this can be changed as many times as the user would like just by using the
   command again. What is stored in the MongoDB database is their discord ID, discord name, osu! profile, what discord and channel they joined from, the time in which
